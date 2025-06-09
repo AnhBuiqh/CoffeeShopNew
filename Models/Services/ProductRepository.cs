@@ -6,8 +6,8 @@ namespace TH01.Models.Services
 {
     public class ProductRepository : IProductRepository
     {
-        private CoffeeshopDbContext dbContext;
-        public ProductRepository(CoffeeshopDbContext dbContext)
+        private TH01DbContext dbContext;
+        public ProductRepository(TH01DbContext dbContext)
         {
             this.dbContext = dbContext;
         }
